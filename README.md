@@ -1,4 +1,4 @@
-# digital_culture_project_team_1
+# ITMO lab-DElivery Application (I.D.E.A.)
 ## Пользовательские кейсы
 ### Кейсы со стороны преподавателя:
 #### Use-case 1. Добавление новой лабораторной работы.
