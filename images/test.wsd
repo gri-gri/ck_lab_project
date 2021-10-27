@@ -1,0 +1,8 @@
+@startuml test
+class Преподаватель
+class Студент
+class Группа
+class Дисциплина
+class Лабораторная_работа
+class Лабосдача
+@enduml
