@@ -1,5 +1,5 @@
 <?php
-	$badLogin = '';
+	$badLoginText = '';
 	if ($_POST['login']) {
 		if ($_POST['login']=='admin' and $_POST['password']=='admin') {
 			session_start();
@@ -8,7 +8,7 @@
 			header('Location: index.php');
 		}
 		else {
-			$badLogin = '<p id="redAlert">Не правильный логин или пароль</p>';
+			$badLoginText = '<p id="redAlert">Не правильный логин или пароль</p>';
 		}
 	}
 ?>
@@ -54,7 +54,7 @@
 			<input type="text" name="login">
 			<p>Пароль</p>
 			<input type="password" name="password">
-			<?php echo $badLogin; ?>
+			<?php echo $badLoginText; ?>
 			<button>Жми меня!</button>
 		</form>
 	</body>
