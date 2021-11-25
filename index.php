@@ -18,7 +18,7 @@
 				<option>Группа1</option>
 				<option>Группа2</option>
 			</select>
-			<h1>Cайт для сдачи лаб ИТМО&#161;</h1>
+			<h1>Cайт для сдачи лаб ИТМО&#161; (I.D.E.A)</h1>
 			<a id="outButton" href="out.php">Выйти</a>
 		</header>
 		<main>		
